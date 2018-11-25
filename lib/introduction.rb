@@ -2,8 +2,8 @@ def introduction(name)
   puts "Hi, my name is #{name}."
 end
 
-def person(name, language)
-  puts name + language
+def introduction_with_language(Dan, Ember.js)
+  puts "Hi, my name is " + "Dan" + "and I am learning to program in " + "Ember.js"
 end
 
-puts "my name is" + "name" + "and i speak" + "language"
+
